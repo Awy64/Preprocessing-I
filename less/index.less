@@ -136,7 +136,8 @@ header {
 		}
 
         p {
-			font-size: 1.4rem;
+			font-size: 1.2rem;
+			line-height: 2rem;
 		}
 		h2 {
 			font-size: @fontsize;
@@ -166,6 +167,9 @@ header {
 		th {
 			font-size: 1.9rem;
 			text-align: left;
+			@media(max-width: 500px) {
+				font-size: 1.5rem;
+			}
 		}
 		td {
 			font-size: @tablefont;

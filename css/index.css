@@ -212,7 +212,8 @@ header div img {
   }
 }
 .top-content section p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 .top-content section h2 {
   font-size: 2rem;
@@ -241,6 +242,11 @@ header div img {
 .work table th {
   font-size: 1.9rem;
   text-align: left;
+}
+@media (max-width: 500px) {
+  .work table th {
+    font-size: 1.5rem;
+  }
 }
 .work table td {
   font-size: 1.4rem;
